@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@400;500;600&family=Sora:wght@600;700&display=swap"
     rel="stylesheet"
   >
   <link rel="icon" type="image/png" href="assets/aster-logo.png">
@@ -33,11 +33,14 @@
 
   <header class="site-header">
     <div class="container nav-shell">
-      <a href="index.html" class="brand">
-        <img class="brand-logo" src="assets/aster-logo.png" alt="Aster International logo">
-        <span class="brand-text">
-          <strong>ASTER</strong>
-          <small>International Pharmaceuticals</small>
+      <a href="index.html" class="brand brand-header">
+        <span class="brand-header-lockup">
+          <span class="brand-wordmark-row">
+            <span class="brand-name">ASTER</span>
+            <img class="brand-logo brand-logo-header" src="assets/aster-logo.png" alt="Aster International logo">
+          </span>
+          <span class="brand-subtitle">International Pharmaceuticals</span>
+          <span class="brand-tagline">We Formulate Trust.</span>
         </span>
       </a>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
@@ -58,36 +61,45 @@
     <section class="hero-slider-section">
       <div class="container">
         <div class="hero-slider reveal">
-          <article class="hero-slide active" style="background-image: linear-gradient(90deg, rgba(248, 241, 233, 0.96) 0%, rgba(248, 241, 233, 0.82) 34%, rgba(248, 241, 233, 0.18) 72%), url('assets/home-slide-partner.png');">
-            <div class="hero-slide-copy">
-              <p class="eyebrow">We Are Always Inspired To Be</p>
-              <h1>Your Most-Preferred Partner</h1>
-              <p class="lead">We are proud of our company vision, disciplined work ethics and long-term customer relationships.</p>
-              <div class="hero-actions">
-                <a href="about.html" class="button button-primary">More Details</a>
-              </div>
+          <article class="hero-slide slide-partner active">
+            <img
+              class="hero-slide-image"
+              src="assets/hero-clean-1.jpg"
+              alt="Laboratory quality documentation and pharmaceutical samples"
+            >
+            <div class="hero-slide-panel">
+              <p class="eyebrow">Precision In Sourcing</p>
+              <h2>Assessment-led ingredient selection for dependable execution.</h2>
+              <p>Built around quality review, documentation support and long-term customer trust.</p>
+              <a href="services.html" class="button button-primary">Explore Services</a>
             </div>
           </article>
 
-          <article class="hero-slide" style="background-image: linear-gradient(90deg, rgba(240, 246, 250, 0.96) 0%, rgba(240, 246, 250, 0.86) 34%, rgba(240, 246, 250, 0.18) 72%), url('assets/home-slide-products.png');">
-            <div class="hero-slide-copy">
-              <p class="eyebrow">Explore Our Product Portfolio</p>
-              <h1>Active Ingredients and Excipients</h1>
-              <p class="lead">Regulatory accreditations available with compliant factories for global pharmaceutical supply programs.</p>
-              <div class="hero-actions">
-                <a href="products.html" class="button button-primary">More Details</a>
-              </div>
+          <article class="hero-slide slide-products">
+            <img
+              class="hero-slide-image"
+              src="assets/hero-clean-2.jpg"
+              alt="Scientist operating a microscope in a laboratory"
+            >
+            <div class="hero-slide-panel">
+              <p class="eyebrow">Active Ingredients and Excipients</p>
+              <h2>Product support aligned to research, quality and commercial relevance.</h2>
+              <p>Representative API and excipient coverage for formulation businesses and export buyers.</p>
+              <a href="products.html" class="button button-primary">View Products</a>
             </div>
           </article>
 
-          <article class="hero-slide" style="background-image: linear-gradient(90deg, rgba(240, 247, 249, 0.96) 0%, rgba(240, 247, 249, 0.84) 34%, rgba(240, 247, 249, 0.16) 72%), url('assets/home-slide-factories.png');">
-            <div class="hero-slide-copy">
-              <p class="eyebrow">Leveraging Our Expertise Through</p>
-              <h1>Manufacturing Factories</h1>
-              <p class="lead">Suitable for regulated as well as semi-regulated markets across the globe through structured sourcing alignment.</p>
-              <div class="hero-actions">
-                <a href="services.html" class="button button-primary">More Details</a>
-              </div>
+          <article class="hero-slide slide-factories">
+            <img
+              class="hero-slide-image"
+              src="assets/hero-clean-3.jpg"
+              alt="Scientist working in a clean modern pharmaceutical lab"
+            >
+            <div class="hero-slide-panel">
+              <p class="eyebrow">Distribution Network</p>
+              <h2>Commercial support shaped around qualified supply networks and compliant sourcing routes.</h2>
+              <p>Suitable for regulated and semi-regulated market programs across global pharmaceutical supply chains.</p>
+              <a href="contact.html" class="button button-primary">Start Discussion</a>
             </div>
           </article>
 
@@ -141,8 +153,8 @@
         <h2>A clean, dependable sourcing partner for procurement and technical teams.</h2>
         <p>
           We help finished dosage formulators, export procurement teams and commercial buyers source
-          ingredients from validated manufacturing facilities while reducing procurement friction and
-          improving confidence in quality, documentation and delivery planning.
+          ingredients through qualified supplier networks as a B2B distribution and sourcing partner,
+          reducing procurement friction while improving confidence in quality, documentation and delivery planning.
         </p>
       </div>
 
@@ -155,7 +167,7 @@
             value to the supply chain, not just supply product.
           </p>
           <ul class="check-list">
-            <li>Validated manufacturing access</li>
+            <li>Qualified supply-network access</li>
             <li>Support for regulated and semi-regulated markets</li>
             <li>Commercial options aligned to customer needs</li>
             <li>Reliable communication throughout execution</li>
@@ -170,7 +182,7 @@
           </p>
           <ul class="check-list">
             <li>Market insight and product availability context</li>
-            <li>Factory-direct and warehouse-based supply models</li>
+            <li>Flexible supplier and warehouse-based supply models</li>
             <li>Customer support across quality, price and delivery</li>
             <li>Relationship-led service for long-term sourcing cycles</li>
           </ul>
@@ -188,7 +200,7 @@
           <article class="service-box reveal">
             <span class="service-number">01</span>
             <h3>Active ingredient supply</h3>
-            <p>Assessment-led sourcing through good and genuine manufacturing facilities.</p>
+            <p>Assessment-led sourcing through qualified supply networks.</p>
           </article>
           <article class="service-box reveal">
             <span class="service-number">02</span>

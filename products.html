@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products | Aster International</title>
+  <meta
+    name="description"
+    content="Browse Aster International's representative pharmaceutical ingredient catalogue including APIs, excipients and supporting molecules."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="icon" type="image/png" href="assets/aster-logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-products">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <div class="topbar-line">
+        <a href="mailto:info@asterintl.com">info@asterintl.com</a>
+        <span>Representative product catalogue</span>
+      </div>
+      <div class="topbar-line">
+        <a href="tel:+912235134535">(+91) 22 3513 4535</a>
+        <a href="tel:+912235134536">(+91) 22 3513 4536</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container nav-shell">
+      <a href="index.html" class="brand">
+        <img class="brand-logo" src="assets/aster-logo.png" alt="Aster International logo">
+        <span class="brand-text">
+          <strong>ASTER</strong>
+          <small>International Pharmaceuticals</small>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+      <nav class="site-nav">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a class="active" href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="contact.html" class="header-cta">Enquire Now</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Products</p>
+        <h1>Representative ingredient coverage across key therapeutic and excipient categories.</h1>
+        <p class="lead">
+          Browse a sample of Aster International's product support. If you need a specific molecule not
+          listed here, contact us for sourcing assistance.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container catalog-shell">
+        <div class="catalog-toolbar reveal">
+          <label class="search-field">
+            <span class="search-label">Search products</span>
+            <input id="product-search" type="search" placeholder="Search by ingredient, therapy or CAS">
+          </label>
+          <div class="filters" role="tablist" aria-label="Product categories">
+            <button class="filter-chip active" data-filter="all" type="button">All</button>
+            <button class="filter-chip" data-filter="anti-infective" type="button">Anti-infective</button>
+            <button class="filter-chip" data-filter="cardio" type="button">Cardio</button>
+            <button class="filter-chip" data-filter="respiratory" type="button">Respiratory</button>
+            <button class="filter-chip" data-filter="excipient" type="button">Excipients</button>
+            <button class="filter-chip" data-filter="gastro" type="button">Gastro and other</button>
+          </div>
+        </div>
+
+        <div class="catalog-summary reveal">
+          <p><strong id="visible-product-count">24</strong> products visible</p>
+          <p>Need additional molecules? Contact Aster for category-specific sourcing support.</p>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card reveal" data-category="anti-infective">
+            <h3>Favipiravir</h3>
+            <p>Anti-viral</p>
+            <span>CAS: 259793-96-9</span>
+          </article>
+          <article class="product-card reveal" data-category="cardio">
+            <h3>Amlodipine Besilate</h3>
+            <p>Anti-hypertensive</p>
+            <span>CAS: 111470-99-6</span>
+          </article>
+          <article class="product-card reveal" data-category="cardio">
+            <h3>Amiloride HCl</h3>
+            <p>Anti-hypertensive</p>
+            <span>CAS: 2609-46-3</span>
+          </article>
+          <article class="product-card reveal" data-category="respiratory">
+            <h3>Doxofylline</h3>
+            <p>Anti-asthmatic</p>
+            <span>CAS: 69975-86-6</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Citric Acid</h3>
+            <p>Mineral salt</p>
+            <span>CAS: 77-92-9</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Docusate Sodium</h3>
+            <p>Stool softener</p>
+            <span>CAS: 577-11-7</span>
+          </article>
+          <article class="product-card reveal" data-category="cardio">
+            <h3>Fenofibrate</h3>
+            <p>Lipid lowering agent</p>
+            <span>CAS: 49562-28-9</span>
+          </article>
+          <article class="product-card reveal" data-category="cardio">
+            <h3>Furosemide</h3>
+            <p>Diuretic</p>
+            <span>CAS: 54-31-9</span>
+          </article>
+          <article class="product-card reveal" data-category="respiratory">
+            <h3>Guaifenesin</h3>
+            <p>Expectorant</p>
+            <span>CAS: 93-14-1</span>
+          </article>
+          <article class="product-card reveal" data-category="cardio">
+            <h3>Hydrochlorothiazide</h3>
+            <p>Diuretic</p>
+            <span>CAS: 58-93-5</span>
+          </article>
+          <article class="product-card reveal" data-category="anti-infective">
+            <h3>Mupirocin</h3>
+            <p>Anti-biotic</p>
+            <span>CAS: 12650-69-0</span>
+          </article>
+          <article class="product-card reveal" data-category="respiratory">
+            <h3>Montelukast Sodium</h3>
+            <p>Anti-asthmatic</p>
+            <span>CAS: 151767-02-1</span>
+          </article>
+          <article class="product-card reveal" data-category="excipient">
+            <h3>Magnesium Stearate</h3>
+            <p>Excipient</p>
+            <span>CAS: 557-04-0</span>
+          </article>
+          <article class="product-card reveal" data-category="excipient">
+            <h3>Micro Crystalline Cellulose</h3>
+            <p>Excipient</p>
+            <span>CAS: 9004-34-6</span>
+          </article>
+          <article class="product-card reveal" data-category="excipient">
+            <h3>Maize Starch</h3>
+            <p>Excipient</p>
+            <span>CAS: 9005-25-8</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Pantoprazole Sodium</h3>
+            <p>Anti-GERD</p>
+            <span>CAS: 164579-32-2</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Polyethylene Glycol (PEG)</h3>
+            <p>Laxative</p>
+            <span>CAS: 25322-68-3</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Pentoxifylline</h3>
+            <p>Hemorrheologic agent</p>
+            <span>CAS: 6493-05-6</span>
+          </article>
+          <article class="product-card reveal" data-category="cardio">
+            <h3>Rosuvastatin Calcium</h3>
+            <p>Anti-lipemic</p>
+            <span>CAS: 147098-20-2</span>
+          </article>
+          <article class="product-card reveal" data-category="excipient">
+            <h3>Sodium Starch Glycolate</h3>
+            <p>Excipient</p>
+            <span>CAS: 9063-38-1</span>
+          </article>
+          <article class="product-card reveal" data-category="excipient">
+            <h3>Sodium Stearyl Fumarate</h3>
+            <p>Excipient</p>
+            <span>CAS: 4070-80-8</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Sucralfate</h3>
+            <p>Cytoprotective agent</p>
+            <span>CAS: 54182-58-0</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Teneligliptin HBr</h3>
+            <p>Anti-diabetic</p>
+            <span>CAS: 760937-92-6</span>
+          </article>
+          <article class="product-card reveal" data-category="gastro">
+            <h3>Tranexamic Acid</h3>
+            <p>Anti-fibrinolytic</p>
+            <span>CAS: 1197-18-8</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-surface">
+      <div class="container split-grid">
+        <article class="content-card reveal">
+          <h2>Coverage focus</h2>
+          <p>
+            Our representative portfolio covers cardio, respiratory, gastro and excipient-oriented
+            molecules, supported through commercial and sourcing consultation.
+          </p>
+        </article>
+        <article class="content-card reveal">
+          <h2>Need a molecule not listed?</h2>
+          <p>
+            The catalogue is only a snapshot. Contact Aster with your requirement and we will review
+            the appropriate sourcing route and manufacturing options.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand">
+          <img class="brand-logo" src="assets/aster-logo.png" alt="Aster International logo">
+          <span class="brand-text">
+            <strong>ASTER</strong>
+            <small>International Pharmaceuticals</small>
+          </span>
+        </a>
+        <p class="footer-copy">Representative ingredient support across APIs, excipients and related categories.</p>
+      </div>
+      <div>
+        <h3>Pages</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul class="footer-links">
+          <li><a href="mailto:info@asterintl.com">info@asterintl.com</a></li>
+          <li><a href="mailto:hr@asterintl.com">hr@asterintl.com</a></li>
+          <li><a href="tel:+912235134535">(+91) 22 3513 4535</a></li>
+          <li><a href="tel:+912235134536">(+91) 22 3513 4536</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>Copyright <span data-year></span> Aster International Pharmaceuticals. All rights reserved.</p>
+      <p>Ethics | Transparency | Honesty</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -102,30 +102,15 @@ textarea {
 }
 
 .brand-seal {
-  position: relative;
-  width: 58px;
-  height: 58px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  background: linear-gradient(135deg, var(--brand), #c4385e);
-  clip-path: polygon(50% 0%, 61% 14%, 78% 8%, 82% 26%, 97% 32%, 88% 48%, 100% 63%, 84% 71%, 84% 89%, 66% 86%, 53% 100%, 40% 87%, 22% 92%, 18% 74%, 2% 66%, 13% 49%, 4% 33%, 20% 27%, 22% 9%, 39% 15%);
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  flex: 0 0 auto;
+  padding: 0.3rem;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(118, 17, 44, 0.08);
   box-shadow: var(--shadow-md);
-}
-
-.brand-seal-core {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 9px;
-  background: rgba(255, 255, 255, 0.18);
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 0.95rem;
-  font-weight: 700;
 }
 
 .brand-copy {
@@ -884,6 +869,27 @@ p {
   margin-bottom: 0.35rem;
 }
 
+.visual-section {
+  padding-top: 2rem;
+}
+
+.visual-panel {
+  padding: 1rem;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(248, 243, 245, 0.82));
+  box-shadow: var(--shadow-md);
+}
+
+.visual-panel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 22px;
+  box-shadow: 0 18px 40px rgba(18, 26, 42, 0.16);
+}
+
 .office-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -992,6 +998,7 @@ textarea:focus {
 
 .footer-brand-lockup .brand-seal {
   box-shadow: none;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .footer-tagline {
